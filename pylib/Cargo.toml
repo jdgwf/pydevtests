@@ -1,0 +1,16 @@
+[package]
+name = "pylib"
+version = "0.1.0"
+authors = ["Jeffrey D. Gordon <jeff@jdgwf.com>"]
+edition = "2018"
+
+[lib]
+name = "pylib"
+crate-type = ["dylib"]
+
+[dependencies]
+commonlib = { path = "../commonlib" }
+
+[dependencies.pyo3]
+version = "0.6.0-alpha.4"
+features = ["extension-module"]
