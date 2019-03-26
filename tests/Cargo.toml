@@ -1,7 +1,7 @@
 [package]
 name = "tests"
 version = "0.1.0"
-authors = ["Jeffrey D. Gordon <jeff@jdgwf.com>"]
+authors = ["Jeffrey D. Gordon"]
 edition = "2018"
 
 [dependencies]
